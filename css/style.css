@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+html, body {
+	font-family: Roboto;
+	font-size: 14px;
+	text-decoration: none;
+	list-style: none;
+}
+
+/*---------------------------------
+	Header	
+---------------------------------*/
+
+header {
+	width: 100vw;
+	height: 75px;
+	background-color: #fff;
+	position: fixed;
+	box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+}
+
+header .header_wrapper {
+	width: 80%;
+	margin: 0px auto;
+	height: 75px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header_logo {
+	height: 50px;
+}
+
+header .header_logo img {
+	height: 100%;
+	object-fit: scale-down;
+}
+
+header .nav_links a {
+	color: #111;
+	margin-left: 35px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+header .nav_links a:hover {
+	text-decoration: underline;
+}
+
+/*---------------------------------
+	Spalsh
+---------------------------------*/
+
+.splash_page {
+	width: 100%;
+	height: 100vh;
+}
+
+.splash_page .spalsh_wrapper {
+	width: 80%;
+	margin: 0px auto;
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    background-image: url("../images/assets/shapedtofityou.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.splash_page .spalsh_wrapper img {
+	width: 100%;
+}
+
+/*---------------------------------
+	Følrstedel med banan
+---------------------------------*/
+
+/*Her velger vi alle med  med .container_wrapper classen, skriver ingenting forran.
+Vi gjør dette fordi vi skal bruke den
+samme på nytt i andre bokser, slik det bli lik luft på sidene*/
+
+.container_wrapper {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 0px auto;
+}
+
+/*Også her kommer den blå boksen og resten*/
+
+.index_container_one {
+	width: 100%;
+	height: 500px;
+	background-color: #004a89;
+}
+
+.index_container_one .container_content {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 500px;
+}
+
+.index_container_one .container_content .textbox {
+	width: 50%;
+}
+
+.index_container_one .container_content .textbox h1 {
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.index_container_one .container_content .textbox p {
+	line-height: 24px;
+	color: #fff;
+}
+
+
+.index_container_one .container_content .banana_img {
+	height: 800px;
+	width: auto;
+	position: absolute;
+	right: 0px;
+}
+
+.index_container_one .container_content .banana_img img {
+	height: 100%;
+}
+
+
+/*---------------------------------
+	Andredel med bilder og tekst
+---------------------------------*/
+
+.index_container_two {
+	width: 100%;
+	margin-top: 75px;
+	height: auto;
+}
+
+.index_container_two .container_content {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	flex-direction: row;
+	gap: 50px;
+}
+
+.index_container_two .container_content .left_img {
+	width: 80%;
+}
+
+.index_container_two .container_content .left_img img {
+	width: 100%;
+}
+
+.index_container_two .container_content .right_img {
+	width: 80%;
+}
+
+.index_container_two .container_content .right_img img {
+	width: 100%;
+}
+
+.index_container_two .container_content .middle_text {
+
+}
+
+.index_container_two .container_content .middle_text h1 {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.index_container_two .container_content .middle_text p {
+	text-align: center;
+	line-height: 24px;
+}
+
+/*---------------------------------
+	tredjedel med bilde, tekst, kjøp mer
+---------------------------------*/
+
+.index_container_three {
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.index_container_three .container_content {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-direction: row;
+	gap: 150px;
+}
+
+.index_container_three .container_content .colum {
+	
+}
+
+.index_container_three .container_content .colum img {
+	width: 100%;
+}
+
+.index_container_three .container_content .colum h1 {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.index_container_three .container_content .colum a.colum_btn {
+	display: block;
+	width: 100px;
+	height: 40px;
+	background-color: #004a89;
+	color: #fff;
+	border-radius: 20px;
+	margin: 0px auto;
+	margin-top: 25px;
+	line-height: 40px;
+	text-align: center;
+	transition: .2s all ease;
+}
+
+.index_container_three .container_content .colum a.colum_btn:hover {
+	opacity: .9;
+
+}
+
+.index_container_three .container_content .colum .colum_text {
+	height: 125px;
+}
+
+
+.index_container_three .container_content .colum .colum_text p {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.index_container_three .container_content .colum .colum_text p.bold {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+/*---------------------------------
+	Del fire (container) av index
+---------------------------------*/
+
+.index_container_four {
+	width: 100%;
+	height: 500px;
+	margin-bottom: 100px;
+	background-color: #004a89;
+}
+
+.index_container_four .container_content {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.index_container_four .container_content .colum {
+	width: 50%;
+}
+
+.index_container_four .container_content .colum h1 {
+	color: #fff;
+	margin-bottom: 25px;
+	text-align: right;
+}
+
+.index_container_four .container_content .colum p {
+	line-height: 24px;
+	color: #fff;
+	text-align: right;
+}
+
+.index_container_four .container_content .colum img {
+	height: 400px;
+}
+
+/*---------------------------------
+	Del fem (container) av index
+---------------------------------*/
+
+.index_container_five {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 50px;
+}
+
+.index_container_five .container_wrapper{
+	width: 60%;
+}
+
+.index_container_five .container_content {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: space-between;
+}
+
+.index_container_five .container_content .colum {
+  	flex: 0 0 31%;
+  	height: auto;
+  	margin-bottom: 50px;
+  	background-color: #999;
+  	overflow: hidden;
+}
+
+.index_container_five .container_content .colum img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: .2s all ease;
+}
+
+.index_container_five .container_content .colum:hover img {
+	transform: scale(1.1);
+	transition: .2s all ease;
+}
+
+/*---------------------------------
+	Del seks (container) av index
+---------------------------------*/
+
+.index_container_six {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 50px;
+}
+
+.index_container_six .container_content img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*---------------------------------
+	Del syv (container) av index
+---------------------------------*/
+
+.index_container_seven {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 50px;
+}
+
+.index_container_seven .container_content {
+	
+}
+
+.index_container_seven .container_content form.contact_us {
+	width: 400px;
+	height: auto;
+	display: block;
+	margin: 0px auto;
+}
+
+.index_container_seven .container_content form.contact_us h1 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.index_container_seven .container_content form.contact_us label {
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+
+.index_container_seven .container_content form.contact_us input {
+	display: block;
+	border: none;
+	outline: none;
+	border: 1px solid #ccc;
+	width: 100%;
+	height: 35px;
+	padding: 2px;
+	margin-bottom: 15px;
+}
+
+.index_container_seven .container_content form.contact_us input[type=submit] {
+	display: block;
+	width: 125px;
+	height: 40px;
+	margin: 0px auto;
+	margin-top: 35px;
+	color: #fff;
+	background-color: #004a89;
+}
+
+.index_container_seven .container_content form.contact_us textarea {
+	display: block;
+	border: none;
+	outline: none;
+	border: 1px solid #ccc;
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+	padding: 2px;
+	font-family: Roboto;
+}
+
