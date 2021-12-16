@@ -6,7 +6,7 @@
 @media screen and (max-width: 430px) {
 
 	/*---------------------------------
-		Header (top-navigasjon)
+		Header
 	---------------------------------*/
 
 	header .header_wrapper {
@@ -27,7 +27,7 @@
 
 	.splash_page .spalsh_wrapper {
 		width: 95%;
-	    background-image: url("../images/assets/splash_mobil.png");
+	    background-image: url("../images/assets/Group\ 70.png");
 	}
 
 	/*Her velger vi alle med  med .container_wrapper classen, skriver ingenting forran.

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,400&display=swap');
 
+/*--- * selekterer alt så det holder samme verdier---*/
 * {
 	margin: 0px;
 	padding: 0px;
@@ -8,7 +9,7 @@
 
 html, body {
 	font-family: Roboto;
-	font-size: 14px;
+	font-size: 16px;
 	text-decoration: none;
 	list-style: none;
 }
@@ -70,7 +71,7 @@ header .nav_links a:hover {
 	height: 100vh;
 	display: flex;
     align-items: center;
-    background-image: url("../images/assets/shapedtofityou.png");
+    background-image: url("../images/assets/Group\ 69.png");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -81,7 +82,7 @@ header .nav_links a:hover {
 }
 
 /*---------------------------------
-	Følrstedel med banan
+	Blå boks med bilde og tekst
 ---------------------------------*/
 
 /*Her velger vi alle med  med .container_wrapper classen, skriver ingenting forran.
@@ -221,7 +222,7 @@ samme på nytt i andre bokser, slik det bli lik luft på sidene*/
 	display: block;
 	width: 100px;
 	height: 40px;
-	background-color: #004a89;
+	background-color: #006736;
 	color: #fff;
 	border-radius: 20px;
 	margin: 0px auto;
